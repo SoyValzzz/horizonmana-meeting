@@ -1,0 +1,261 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "profile": {
+        "firstName": "Michael",
+        "lastName": "Smith",
+        "address": "456 Oak St",
+        "number": "2B",
+        "city": "Springfield",
+        "postalCode": "98765",
+        "email": "michael.smith@example.com",
+        "country": "USA",
+        "phone": "987-654-3210",
+        "avatar": "https://b2472105.smushcdn.com/2472105/wp-content/uploads/2022/11/Fotografia-de-Retrato-19-1170x1170.jpg?lossy=1&strip=1&webp=1"
+      },
+      "role": {
+        "name": "Developer Team",
+        "description": "A cross-functional group that collaborates to deliver product increments, self-organizing and responsible for quality and estimates."
+      },
+      "availability": {
+        "startSchedule": "09:00",
+        "finalSchedule": "17:00",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      },
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "profile": {
+        "firstName": "Sarah",
+        "lastName": "Johnson",
+        "address": "123 Maple Ave",
+        "number": "3A",
+        "city": "Shelbyville",
+        "postalCode": "12345",
+        "email": "sarah.johnson@example.com",
+        "country": "USA",
+        "phone": "123-456-7890",
+        "avatar": "https://example.com/avatar2.jpg"
+      },
+      "role": {
+        "name": "Project Manager",
+        "description": "Responsible for planning, executing, and closing projects."
+      },
+      "availability": {
+        "startSchedule": "08:00",
+        "finalSchedule": "16:00",
+        "days": [
+          "Monday",
+          "Wednesday",
+          "Friday"
+        ]
+      },
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "profile": {
+        "firstName": "David",
+        "lastName": "Williams",
+        "address": "789 Pine St",
+        "number": "1C",
+        "city": "Capitol City",
+        "postalCode": "67890",
+        "email": "david.williams@example.com",
+        "country": "USA",
+        "phone": "234-567-8901",
+        "avatar": "https://example.com/avatar3.jpg"
+      },
+      "role": {
+        "name": "UI/UX Designer",
+        "description": "Focuses on the user experience and visual design."
+      },
+      "availability": {
+        "startSchedule": "10:00",
+        "finalSchedule": "18:00",
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ]
+      },
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "profile": {
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "address": "321 Birch Rd",
+        "number": "5D",
+        "city": "Metropolis",
+        "postalCode": "54321",
+        "email": "emily.davis@example.com",
+        "country": "USA",
+        "phone": "345-678-9012",
+        "avatar": "https://example.com/avatar4.jpg"
+      },
+      "role": {
+        "name": "Quality Assurance",
+        "description": "Ensures the product meets quality standards before release."
+      },
+      "availability": {
+        "startSchedule": "09:00",
+        "finalSchedule": "17:00",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      },
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "profile": {
+        "firstName": "James",
+        "lastName": "Brown",
+        "address": "654 Cedar Blvd",
+        "number": "4E",
+        "city": "Star City",
+        "postalCode": "98765",
+        "email": "james.brown@example.com",
+        "country": "USA",
+        "phone": "456-789-0123",
+        "avatar": "https://example.com/avatar5.jpg"
+      },
+      "role": {
+        "name": "Backend Developer",
+        "description": "Works on server-side logic and database management."
+      },
+      "availability": {
+        "startSchedule": "09:00",
+        "finalSchedule": "17:00",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Thursday"
+        ]
+      },
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "profile": {
+        "firstName": "Lisa",
+        "lastName": "Miller",
+        "address": "987 Elm St",
+        "number": "6F",
+        "city": "Oceanview",
+        "postalCode": "87654",
+        "email": "lisa.miller@example.com",
+        "country": "USA",
+        "phone": "567-890-1234",
+        "avatar": "https://example.com/avatar6.jpg"
+      },
+      "role": {
+        "name": "DevOps Engineer",
+        "description": "Responsible for managing infrastructure and deployment."
+      },
+      "availability": {
+        "startSchedule": "11:00",
+        "finalSchedule": "19:00",
+        "days": [
+          "Monday",
+          "Wednesday",
+          "Friday"
+        ]
+      },
+      "status": "Active"
+    }
+
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "title": "Sprint Planning Meeting",
+      "date": "2024-10-10",
+      "time": "10:00 AM",
+      "link": "https://meet.google.com/planning",
+      "recording": {
+        "recordingLink": "https://meet.google.com/recordings/planning",
+        "duration": "1h",
+        "publicAccess": true
+      },
+      "host": 1,
+      "members": [
+        1,
+        2,
+        3
+      ],
+      "access_code": "123456"
+    },
+    {
+      "id": 2,
+      "title": "Retrospective Meeting",
+      "date": "2024-10-15",
+      "time": "2:00 PM",
+      "link": "https://meet.google.com/retrospective",
+      "recording": {
+        "recordingLink": "https://meet.google.com/recordings/retrospective",
+        "duration": "45m",
+        "publicAccess": true
+      },
+      "host": 2,
+      "members": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "access_code": "654321"
+    },
+    {
+      "id": 3,
+      "title": "Daily Standup Meeting",
+      "date": "2024-10-20",
+      "time": "9:00 AM",
+      "link": "https://meet.google.com/standup",
+      "recording": {
+        "recordingLink": "https://meet.google.com/recordings/standup",
+        "duration": "15m",
+        "publicAccess": false
+      },
+      "host": 3,
+      "members": [
+        1,
+        2
+      ],
+      "access_code": "987654"
+    },
+    {
+      "id": 4,
+      "title": "Sprint Review Meeting",
+      "date": "2024-10-25",
+      "time": "3:00 PM",
+      "link": "https://meet.google.com/review",
+      "recording": {
+        "recordingLink": "https://meet.google.com/recordings/review",
+        "duration": "1h 30m",
+        "publicAccess": true
+      },
+      "host": 4,
+      "members": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "access_code": "112233"
+    }
+  ]
+}
